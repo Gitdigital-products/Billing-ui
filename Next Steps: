@@ -1,0 +1,26 @@
+
+
+1. Set up the project:
+2. Create the file structure as outlined above
+3. Add these scripts to package.json:
+
+```json
+{
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,css,md}\"",
+    "lint": "eslint src/**/*.{js,jsx}",
+    "docker:build": "docker build -t gitdigital-billing-ui .",
+    "docker:run": "docker run -p 3000:80 gitdigital-billing-ui"
+  }
+}
+``
+
+1. Start development:
+
+```bash
+npm start
+```
