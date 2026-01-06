@@ -1,0 +1,46 @@
+gitdigital-billing-ui/
+│
+├── public/
+│   ├── index.html
+│   └── assets/
+│       ├── css/
+│       │   ├── main.css
+│       │   ├── components.css
+│       │   └── compliance.css
+│       └── js/
+│           ├── main.js
+│           ├── api.js
+│           ├── compliance.js
+│           └── overrides.js
+│
+├── src/
+│   ├── components/
+│   │   ├── Dashboard.jsx
+│   │   ├── ComplianceReview.jsx
+│   │   ├── OverridesPanel.jsx
+│   │   ├── BillingQueue.jsx
+│   │   ├── AuditTrail.jsx
+│   │   └── StatusBadge.jsx
+│   │
+│   ├── pages/
+│   │   ├── InternalOps.jsx
+│   │   ├── ComplianceDashboard.jsx
+│   │   └── OverridesManager.jsx
+│   │
+│   ├── services/
+│   │   ├── api.js
+│   │   ├── complianceService.js
+│   │   └── overrideService.js
+│   │
+│   ├── utils/
+│   │   ├── validators.js
+│   │   ├── formatters.js
+│   │   └── auditLogger.js
+│   │
+│   └── App.jsx
+│   └── index.js
+│
+├── package.json
+├── README.md
+├── .env.example
+└── docker-compose.yml
